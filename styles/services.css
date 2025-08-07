@@ -1,0 +1,25 @@
+.services {
+  background-color: var(--gray-100);
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+
+  header {
+    text-align: center;
+  }
+
+  .grid-services {
+    display: flex;
+    gap: 24px;
+  }
+}
+
+.card-services {
+  width: 280px;
+  height: 155px;
+  border: 2px solid var(--gray-200);
+  border-radius: 5px;
+}
