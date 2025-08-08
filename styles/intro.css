@@ -1,5 +1,5 @@
 .intro {
-  background-image: url(/assets/image/Background_Intro.svg);
+  background-image: url(../assets/image/Background_Intro.svg);
   height: 100vh;
   display: flex;
   flex-direction: column;
