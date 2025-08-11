@@ -15,6 +15,20 @@
     display: flex;
     gap: 24px;
   }
+
+  .header-services > h4 {
+    color: var(--color-primary);
+    font-size: var(--subtitle-size);
+    line-height: var(--line-height-tight);
+    font-weight: var(--font-weight-regular);
+  }
+
+  .header-services > h2 {
+    margin: 20px;
+    font-size: var(--title-md-size);
+    line-height: var(--line-height-tight);
+    font-weight: var(--font-weight-bold);
+  }
 }
 
 .card-services {
@@ -22,4 +36,18 @@
   height: 155px;
   border: 2px solid var(--gray-200);
   border-radius: 5px;
+  padding: 20px;
+
+  .text-services > h5 {
+    font-size: var(--title-sm-size);
+    line-height: var(--line-height-tight);
+    font-weight: var(--font-weight-bold);
+  }
+
+  .text-services > p {
+    font-size: var(--text-sm-size);
+    line-height: var(--line-height-loose);
+    font-weight: var(--font-weight-regular);
+    margin-top: 5px;
+  }
 }
