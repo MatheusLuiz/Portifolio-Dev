@@ -57,5 +57,10 @@
 
   ul > li > a {
     text-decoration: none;
+    font-family: var(--font-tertiary);
+    font-size: var(--text-md-size);
+    line-height: var(--line-height-loose);
+    font-weight: var(--font-weight-regular);
+    color: var(--gray-500);
   }
 }
