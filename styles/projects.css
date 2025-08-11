@@ -21,7 +21,7 @@
     line-height: var(--line-height-tignt);
     font-weight: var(--font-weight-regular);
   }
-  .header-projetcs > h2 {
+  header > h2 {
     font-size: var(--title-md-size);
     line-height: var(--line-height-tignt);
     font-weight: var(--font-weight-bold);
